@@ -24,6 +24,7 @@
     "@typescript-eslint/indent": [ "error", 2, { "SwitchCase": 1 } ], // 縮排為兩格空格
     "eol-last": [ "error" ], // 最後一排不要空下
     "no-unused-vars": "warn", // 不行有沒使用的變數
+    "unused-imports/no-unused-imports-ts": "warn",// 不能有未使用的引用
     "prefer-const": "warn", // 如果沒有修改變數，那個變數必須要是 const
     "space-before-function-paren": [ "error", { // function 命名風格
       "anonymous": "always",
@@ -31,7 +32,6 @@
       "asyncArrow": "always"
     } ],
     "no-empty-function": "off", // 不能有空白的函式
-    "unused-imports/no-unused-imports-ts": "error",// 不能有未使用的引用
     "@typescript-eslint/no-empty-function": "warn" // 不能有空白的函式
   }
 }
